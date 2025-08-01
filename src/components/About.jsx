@@ -4,8 +4,6 @@ import Navbar from './Navbar';
 export default function About() {
   return (
     <section id="about" className="min-h-screen w-full flex flex-col items-center py-16 px-4 bg-blue-200">
-  
-        {/* Top 3 Feature Cards */}
         <div className="flex flex-row justify-center flex-wrap gap-6 mb-12">
           <div className="bg-white p-6 rounded-lg shadow-md w-72 text-center hover:scale-105 transition-transform duration-300">
             <h4 className="text-6xl font-bold text-black mb-2">10K+ </h4>
@@ -32,7 +30,6 @@ In addition to travel planning, we specialize in event management, creating unfo
 So if you're looking for a trustworthy and reliable travel and event management company, look no further. 
           </p>
         </div>
-
       </section>
 
   );
